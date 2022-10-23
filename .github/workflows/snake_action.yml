@@ -5,7 +5,7 @@ jobs:
   create-snake:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@e3ad8b2caf433c9cca46b034d14dc50d40db1b11
+      - uses: Platane/snk@master
         with:
           github_user_name: ArmheinSauce
           svg_out_path: dist/github-contribution-grid-snake.svg
