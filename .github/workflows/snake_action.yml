@@ -1,6 +1,18 @@
-- name: generate-snake-game-from-github-contribution-grid
+name: generate-snake-game-from-github-contribution-grid
+        
+on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Jobs to update datas
+    runs-on: ubuntu-latest
+    steps:
+      # Snake Animation
+      - uses: Platane/snk@v2.0.0-rc.2
         id: generate-snake
-        uses: Platane/snk@v2.0.0-rc.2
         with:
           github_user_name: ArmheinSauce
           outputs: |
