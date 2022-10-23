@@ -1,4 +1,5 @@
 ### Hi there 👋
+![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
 
 <!--
 **ArmheinSauce/ArmheinSauce** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
