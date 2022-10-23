@@ -1,9 +1,14 @@
 name: Generate-snake
-
-uses: Platane/snk@e3ad8b2caf433c9cca46b034d14dc50d40db1b11
-with:
-        github_user_name: ArmheinSauce
-outputs:
-        dist/github-contribution-grid-snake.svg
-        dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-dist/github-contribution-grid-snake.gif?color_snake=red&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+run-name: ${{ github.actor }} is generating a snake
+on: [push]
+jobs:
+  create-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@e3ad8b2caf433c9cca46b034d14dc50d40db1b11
+        with:
+          github_user_name: ArmheinSauce
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
