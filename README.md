@@ -1,5 +1,5 @@
 ### Hi there 👋
-![Snake animation](https://github.com/ArmheinSauce/ArmheinSauce/blob/output/github-snake-dark.svg)
+![Snake animation](https://github.com/ArmheinSauce/ArmheinSauce/blob/output/github-contribution-grid-snake-dark.svg)
 
 <!--
 **ArmheinSauce/ArmheinSauce** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
