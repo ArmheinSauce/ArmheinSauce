@@ -8,6 +8,7 @@ jobs:
       - uses: Platane/snk@e3ad8b2caf433c9cca46b034d14dc50d40db1b11
         with:
           github_user_name: ArmheinSauce
+          svg_out_path: dist/github-contribution-grid-snake.svg
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
