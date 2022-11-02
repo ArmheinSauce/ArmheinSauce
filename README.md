@@ -1,5 +1,5 @@
-## Hello World! <img src="https://raw.githubusercontent.com/syedareehaquasar/syedareehaquasar/master/gifs/Hi.gif" width="30px"></h2>
-<br />
+
+<img src="https://media.tenor.com/S7RM7OumKSoAAAAC/rocket-space.gif" alt="cat-programmer" align="right">
 
 <br>
 <br>
